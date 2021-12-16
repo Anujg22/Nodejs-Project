@@ -49,10 +49,5 @@ app.put("/blog/:id", query.updateBlog)
 app.delete("/blog/:id", query.deleteBlog)
 
 
-
-
-
-
-
 app.listen(3000, ()=>console.log("Server is running"))
 // module.exports = {controller}
